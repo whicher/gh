@@ -1,0 +1,195 @@
+{% assign trans = site.trans.tr %}
+
+{% if site.baseurl == '/en' %}
+  {% assign trans = site.trans.en %}
+{% endif %}
+
+    <!-- Wrapper -->
+      <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+          <div id="intro" style="background-color: gray; background: rgba(54, 25, 25, .6); border-radius: 15px 15px; padding: 5px;">
+            <h1 style="">{{ site.subtitle }}</h1>
+            <p>{{ site.venue }}</p>
+            <ul class="actions">
+              <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+          </div>
+
+        <!-- Header -->
+          <header id="header">
+            <a href="#" class="logo">{{ site.subtitle }}</a>
+          </header>
+
+        <!-- Nav -->
+          <nav id="nav">
+            <ul class="links">
+              <li class="active"><a href="index.html">{{ trans.details }}</a></li>
+            </ul>
+
+            <ul class="icons">
+              <li><a href="https://www.instagram.com/explore/tags/{{site.hashtag}}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="http://gamzehakan.com/en" class="icon fa-globe"><span class="label">{{ trans.en_site_title }}</span></a></li>
+            </ul>
+          </nav>
+
+        <!-- Main -->
+          <div id="main">
+
+            <!-- Featured Post -->
+              <article class="post featured">
+                <header class="major">
+                  <span class="date">{{ trans.date }}</span>
+                  <h2>{{ trans.venue_title }}</h2>
+                  <p>{{ site.venue }}</p>
+                </header>
+                  <div class="h_iframe">
+                    <img class="ratio" src="http://placehold.it/16x9"/>
+                    <iframe src="{{ site.venue_gmaps_iframe_url }}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                  <br>
+                  <ul class="actions">
+                    <li><a href="{{ site.venue_gmaps_share_url }}" target="_blank" class="button big">{{ trans.directions_title }}</a></li>
+                  </ul>
+              </article>
+
+              <article class="post featured">
+                <header class="major">
+                  <h2>{{ trans.rsvp_title }}</h2>
+                </header>
+                <a href="{{ trans.gforms_rsvp_url}}" target="_blank" class="button fit">{{ trans.rsvp_title }}</a>
+              </article>
+
+            <!-- Posts -->
+              <section class="posts">
+                <article>
+                  <header>
+                    <h2>{{ trans.weather_title }}</h2>
+                  </header>
+                  <div>
+                    <a href="https://www.accuweather.com/en/tr/incek/1298448/weather-forecast/1298448" class="aw-widget-legal">
+                    <!--
+                    By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+                    -->
+                    </a><div id="awcc1498345163517" class="aw-widget-current"  data-locationkey="1298448" data-unit="c" data-language="{{ trans.lang_code }}" data-useip="false" data-uid="awcc1498345163517"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+                  </div>
+                </article>
+                <article>
+                  <header>
+                    <h2>{{ trans.istanbul_office_title }}</h2>
+                  </header>
+                  <div class="h_iframe">
+                    <img class="ratio" src="http://placehold.it/16x9"/>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.412271224591!2d29.00656795119533!3d41.081838022741834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab6666afc3281%3A0x68f47ef200169cd0!2sGoogle+Advertising+and+Marketing!5e0!3m2!1sen!2sie!4v1499603236111" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                </article>
+                <article>
+                  <header>
+                    <h2>{{ trans.recommended_hotels_ist_title }}</h2>
+                  </header>
+                  <ul class="align-left">
+                    <li><a href="https://www.booking.com/hotel/tr/dedeman-park-levent.en-gb.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaGmIAQGYAS7CAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=5e6267faf3c336a8edde736319a8db14;dest_id=-755070;dest_type=city;dist=0;group_adults=2;hpos=1;room1=A%2CA;sb_price_type=total;srfid=240006dbce01bdf142f30950e4a0e25fe15384baX1;srpvid=e9bf5a3370a9028b;type=total;ucfs=1&#map_closed" target="_blank">Dedeman</a></li>
+                    <li><a href="https://www.booking.com/hotel/tr/moevenpick-istanbul.en-gb.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaGmIAQGYAS7CAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=5e6267faf3c336a8edde736319a8db14;dest_id=-755070;dest_type=city;dist=0;group_adults=2;hpos=1;room1=A%2CA;sb_price_type=total;srfid=e751caeced7f7975db7ba562aae3cb6d905f14f4X1;srpvid=15965a3f206700db;type=total;ucfs=1&#hotelTmpl" target="_blank">Mövenpick</a></li>
+                    <li><a href="https://www.booking.com/hotel/tr/wyndham-grand-istanbul-levent.en-gb.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaGmIAQGYAS7CAQN4MTHIAQzYAQHoAQH4AQuSAgF5qAID;sid=5e6267faf3c336a8edde736319a8db14;dest_id=-755070;dest_type=city;dist=0;group_adults=2;hpos=4;room1=A%2CA;sb_price_type=total;srfid=e751caeced7f7975db7ba562aae3cb6d905f14f4X4;srpvid=15965a3f206700db;type=total;ucfs=1&#hotelTmpl" target="_blank">Wyndham</a></li>
+                  </ul>
+                </article>
+                <article>
+                  <header>
+                    <h2>{{ trans.recommended_hotels_ank_title }}</h2>
+                  </header>
+<!--                   <ul class="align-left">
+                    <li><a href="" target="_blank">Holiday Inn</a></li>
+                    <li><a href="" target="_blank">Wyndham</a></li>
+                    <li><a href="" target="_blank">Incek Otel</a></li>
+                  </ul> -->
+                  <p>{{ trans.recommended_hotels_ank_body }}</p>
+                </article>
+                <article>
+                  <header>
+                    <h2>{{ trans.ist_ank_guide_title }}</h2>
+                  </header>
+                  <ul class="align-left">
+                    {% for tip in trans.ist_ank_guide_tips%}
+                      <li>
+                        <b>
+                          <a href="{{ tip.url }}" target="_blank">
+                            {{ tip.title }}
+                          </a>
+                        </b>: {{ tip.body }}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </article>
+                <article>
+                  <header>
+                    <h2>{{ trans.venue_tips_title }}</h2>
+                  </header>
+                  <ul class="align-left">
+                    {% for tip in trans.venue_tips%}
+                      <li>{{ tip }}</li>
+                    {% endfor %}
+                  </ul>
+                </article>
+              </section>
+
+              <article class="post featured">
+                <header class="major">
+                  <h2>{{ trans.schedule_title }}</h2>
+                </header>
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>{{ trans.schedule_time_title }}</th>
+                        <th>{{ trans.schedule_event_title }}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for s in trans.schedule%}
+                      <tr>
+                        <td>{{ s.time }}</td>
+                        <td>{{ s.event }}</td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+
+          </div>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <section>
+              <a href="{{ trans.gforms_contact_url }}" target="_blank" class="button fit">{{ trans.contact_title }}</a>
+            </section>
+            <section class="split contact">
+              <section class="alt">
+                <h3>{{ trans.address_title }}</h3>
+                <p>{{ trans.address }}</p>
+              </section>
+              <section>
+                <h3>{{ trans.phone_title }}</h3>
+                <p>{{ trans.phone }}</p>
+              </section>
+              <section>
+                <h3>{{ trans.email_title }}</h3>
+                <p>{{ trans.email }}</p>
+              </section>
+              <section>
+                <h3>Social</h3>
+                <ul class="icons alt">
+                  <li><a href="https://www.instagram.com/explore/tags/{{site.hashtag}}" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                </ul>
+              </section>
+            </section>
+          </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+          <ul><li>&copy; {{ site.subtitle }}</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+
+      </div>
+

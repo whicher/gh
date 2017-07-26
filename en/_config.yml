@@ -1,0 +1,152 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Gamze ve Hakan'ın Düğün sitesi #gamzevehakan"
+subtitle: "Gamze & Hakan"
+email: info@gamzehakan.com
+phone: (506) 802 99 69
+description: > # Gamze ve Hakan'ın Düğünü 19 Ağustos'ta İncek Garden'da
+baseurl: "/en" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+hashtag: "#gamzehakan"
+venue: "@ 19.08.2017, İncek Garden, Ankara"
+venue_gmaps_iframe_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.079472778792!2d32.700423315523906!3d39.80520910052628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d33f9314d35e79%3A0xaf913f7aa335a2e6!2s%C4%B0ncek+Garden!5e0!3m2!1sen!2sie!4v1498334928410"
+venue_gmaps_share_url: "https://www.google.ie/maps/place/%C4%B0ncek+Garden/@39.805205,32.700418,17z/data=!3m1!4b1!4m5!3m4!1s0x14d33f9314d35e79:0xaf913f7aa335a2e6!8m2!3d39.805205!4d32.702612"
+trans:
+  tr:
+    lang_code: "tr"
+    gforms_rsvp_url: "https://docs.google.com/forms/d/10KP73MmqApNl33MOlqzCH9sp0RiNO6apfeb8Ko4bBkE/edit"
+    gforms_contact_url: "https://docs.google.com/forms/d/e/1FAIpQLSfP7QNGcwekkjxAjxf0p5HE0eQ1czQ6yaVYwx6gEEWvSgsGgA/viewform?usp=sf_link"
+    details_title: "Detaylar"
+    en_site_title: "EN"
+    tr_site_title: "TR"
+    date: "19.08.2017 Cumartesi"
+    venue_title: "Mekan"
+    directions_title: "Yol tarifi alın"
+    weather_title: "Hava Durumu"
+    istanbul_office_title: "Google İstanbul Ofisi"
+    recommended_hotels_ist_title: "İstanbul Otel Tavsiyeleri"
+    recommended_hotels_ank_title: "Ankara Otel Tavsiyeleri"
+    recommended_hotels_ank_body: "Holiday Inn Çukurambar ile anlaşıldı. info@gamzehakan.com adresine mail atarak rezervasyonunuzu onaylatabilirsiniz. Tek kişi gecelik 180 lira, 2 kişi gecelik 210 lira (KDV ve kahvaltı dahil)"
+    ist_ank_guide_title: "İstanbul - Ankara Ulaşım"
+    ist_ank_guide_tips:
+      - title: "Hızlı Tren"
+        url: "http://ebilet.tcddtasimacilik.gov.tr/view/eybis/tnmGenel/tcddWebContent.jsf"
+        body: "Bilet alımı yolculuk tarihinin iki hafta öncesine kadar açılmıyor."
+      - title: "Sabiha Gökçen (SAW) - Esenboğa (ESB) uçuşu"
+        url: "http://ekobilet.com"
+        body: "ESB şehrin çok dışında olduğu için otobüs daha iyi bir seçenek olabilir."
+      - title: "Atatürk (IST) - Esenboğa (ESB) uçuşu"
+        url: "http://ekobilet.com"
+        body: "ESB şehrin çok dışında olduğu için otobüs daha iyi bir seçenek olabilir."
+      - title: "Otobüs"
+        url: "https://www.obilet.com/otobus-bileti-al"
+        body: "AŞTİ çok merkezi bir yerde. Muhtemel otellere de yakın"
+    venue_tips_title: "Mekan Bilgileri"
+    venue_tips:
+      - "Açık hava"
+      - "Yağmur yağabilir"
+      - "Aşırı sıcak"
+    schedule_title: "Düğün Programı"
+    schedule_time_title: "Saat"
+    schedule_event_title: "Okazyon"
+    schedule:
+      - time: "18.30"
+        event: "Düğün Başlangıcı"
+      - time: "19.00"
+        event: "Nikah"
+      - time: "19.30"
+        event: "İlk Dans"
+      - time: "20.00"
+        event: "Masa Gezme"
+      - time: "20.30"
+        event: "Oyun"
+      - time: "23.30"
+        event: "Bitiş"
+    address_title: "Adres"
+    address: "İncek Mahallesi, Türkan Şoray Cd. No:10, 06830 Gölbaşı/Ankara"
+    phone_title: "Telefon"
+    phone: "+90 506 802 99 69 (WhatsApp)"
+    email_title: "Email"
+    email: "info@gamzehakan.com"
+    rsvp_title: "Katılım Durumunuz"
+    contact_title: "İletişim"
+  en:
+    lang_code: "en"
+    gforms_rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSf-Hf73y3s40oUFsaznjtzZBcarTUqW3uY6gGvqADX11P_y_g/viewform?usp=sf_link"
+    gforms_contact_url: "mailto:info@gamzehakan.com"
+    details_title: "Details"
+    en_site_title: "EN"
+    tr_site_title: "TR"
+    date: "19.08.2017, Saturday"
+    venue_title: "Venue"
+    directions_title: "Directions"
+    weather_title: "Weather Report"
+    istanbul_office_title: "Google Istanbul Office"
+    recommended_hotels_ist_title: "Recommended Hotels for Istanbul"
+    recommended_hotels_ank_title: "Recommended Hotels for Ankara"
+    recommended_hotels_ank_body: "Holiday Inn Çukurambar has flat discounted rate for us. Drop an email to info@gamzehakan.comfor reservation. Single room is 180TRY and double room is 210TRY per night (incl breakfast and VAT)"
+    ist_ank_guide_title: "Istanbul - Ankara Guide"
+    ist_ank_guide_tips:
+      - title: "Fast Train"
+        url: "http://ebilet.tcddtasimacilik.gov.tr/view/eybis/tnmGenel/tcddWebContent.jsf"
+        body: "Ticket system opens 2-3 weeks before the date of travel."
+      - title: "Sabiha Gökçen (SAW) - Esenboğa (ESB) flight"
+        url: "http://ekobilet.com"
+        body: "ESB is very far from the city and public transport is poor, recommend taking bus from Istanbul."
+      - title: "Atatürk (IST) - Esenboğa (ESB) flight"
+        url: "http://ekobilet.com"
+        body: "ESB is very far from the city and public transport is poor, recommend taking bus from Istanbul."
+      - title: "Bus"
+        url: "https://www.obilet.com/otobus-bileti-al"
+        body: "Strongly recommended; terminal is very central and close to the hotel we arranged."
+    venue_tips_title: "Venue Tips"
+    venue_tips:
+      - "Garden"
+      - "May be rainy, there is a roof on top but still open"
+      - "May be really warm"
+    schedule_title: "Schedule"
+    schedule_time_title: "Time"
+    schedule_event_title: "Event"
+    schedule:
+      - time: "18.30"
+        event: "Start"
+      - time: "19.00"
+        event: "Ceremony"
+      - time: "19.30"
+        event: "First Dance"
+      - time: "20.00"
+        event: "Celebrations"
+      - time: "20.30"
+        event: "Dance Floor"
+      - time: "23.30"
+        event: "The End"
+    address_title: "Address"
+    address: "İncek Mahallesi, Türkan Şoray Cd. No:10, 06830 Gölbaşı/Ankara, Turkey"
+    phone_title: "Phone"
+    phone: "+90 506 802 99 69 (WhatsApp)"
+    email_title: "Email"
+    email: "info@gamzehakan.com"
+    rsvp_title: "RSVP"
+    contact_title: "Contact"
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
